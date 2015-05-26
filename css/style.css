@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	overflow: hidden;
+}
+.screen{
+	width: 512px;
+	height: 448px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top{
+	width: 520px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.textbox{
+	border-style: double dashed;
+	text-align: center;
+	margin-top: 20px;
+	width: 512px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #eeeeee;
+	color: #eeeeee;
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Press Start 2P', cursive;
+
+}
+a {
+
+}
+a:hover { 
+    color: #ff69b4;
+    text-decoration: none;
+}
+@-webkit-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+.blink {
+  -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(0.5, -0.5, 0.5, 1.5);
+  -webkit-animation-duration: 1.5s; 
+}			
