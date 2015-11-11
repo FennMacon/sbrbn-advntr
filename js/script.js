@@ -1,32 +1,6 @@
-
 $(document).ready(function(){
-	$("#imgbaja").hide();
-	$("#imgbelo").hide();
-	$("#imgchill").hide();
-	$("#imgclark").hide();
-	$("#imgconcord").hide();
-	$("#imgfin").hide();
-	$("#imggreta").hide();
-	$("#imghome").hide();
-	$("#imgleaftype").hide();
-	$("#imgmonks").hide();
-	$("#imgnachurch").hide();
-	$("#imgrlbh").hide();
-	$("#imgtight").hide();
-	$("#imgtravelone").hide();
-	$("#imgworcester").hide();
-		$("#lconcord").hide();
-		$("#lhome").hide();
-		$("#lmonks").hide();
-		$("#lbaja").hide();
-		$("#lnah").hide();
-		$("#lworcester").hide();
-		$("#lgreta").hide();
-		$("#lchill").hide();
-		$("#lclark").hide();
-		$("#ltravel").hide();
-		$("#lbajatwo").hide();
-		$("#lwootwo").hide();
+	$("#imgtitle").siblings().hide();
+	$("#lna").siblings().hide();
 
 
 	$("#lna").click(function(){
